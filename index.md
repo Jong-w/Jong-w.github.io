@@ -14,7 +14,7 @@ My research focuses on reinforcement learning, federated learning, and adversari
 - **Federated Learning:** robust learning and backdoor defense
 - **AI Security:** adversarial attacks, defenses, and trustworthy AI
 
-{% include_relative _includes/publications.md %}
+{% include publications.md %}
 
 ## Education
 
