@@ -1,29 +1,74 @@
 <style>
-/* Publication layout overrides only; the official Minimal Light theme remains active. */
-.jk-publications, .jk-publications * { box-sizing: border-box; }
-.jk-publications { margin-top: 18px; }
-.jk-publications .jk-paper { display: flex; align-items: flex-start; gap: 22px; margin: 0 0 27px; padding: 0 0 24px; border-bottom: 1px solid #e9e9e9; width: 100%; clear: both; }
+/* Isolated publication layout for the official Minimal Light theme. */
+#publications + .jk-publications { width: 100%; }
+.jk-publications, .jk-publications * { box-sizing: border-box !important; }
+.jk-publications .jk-paper {
+  display: grid !important;
+  grid-template-columns: minmax(0, 34%) minmax(0, 1fr) !important;
+  align-items: start !important;
+  column-gap: 22px !important;
+  width: 100% !important;
+  min-height: 0 !important;
+  margin: 0 0 24px !important;
+  padding: 0 0 24px !important;
+  border-bottom: 1px solid #e6e6e6;
+  clear: both !important;
+  float: none !important;
+}
 .jk-publications .jk-paper:last-child { border-bottom: 0; }
-.jk-publications .jk-figure { position: relative; flex: 0 0 35%; width: 35%; min-width: 0; margin: 0; }
-.jk-publications .jk-figure img { display: block; width: 100%; height: 155px; max-width: 100%; object-fit: contain; object-position: center; background: #fff; border: 1px solid #ececec; border-radius: 4px; }
-.jk-publications .jk-tag { position: absolute; top: 7px; left: 7px; padding: 3px 7px; font-size: 10px; line-height: 1.2; font-weight: 600; color: #fff; background: #083a70; border-radius: 2px; }
-.jk-publications .jk-info { flex: 1 1 0; min-width: 0; overflow-wrap: anywhere; }
-.jk-publications .jk-title { font-size: 15px; font-weight: 700; line-height: 1.4; margin-bottom: 5px; }
-.jk-publications .jk-authors { line-height: 1.5; margin-bottom: 4px; }
-.jk-publications .jk-venue { font-style: italic; line-height: 1.5; margin-bottom: 8px; }
-.jk-publications .jk-links { display: flex; align-items: center; flex-wrap: wrap; gap: 6px; }
+.jk-publications figure.jk-figure {
+  display: block !important;
+  position: relative !important;
+  float: none !important;
+  width: 100% !important;
+  max-width: 100% !important;
+  height: 160px !important;
+  min-height: 0 !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  overflow: hidden !important;
+  border: 1px solid #ececec;
+  border-radius: 4px;
+  background: #fff;
+}
+.jk-publications figure.jk-figure > img {
+  display: block !important;
+  float: none !important;
+  position: static !important;
+  width: 100% !important;
+  max-width: 100% !important;
+  height: 100% !important;
+  max-height: 100% !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  object-fit: contain !important;
+  object-position: center !important;
+  border: 0 !important;
+  box-shadow: none !important;
+}
+.jk-publications .jk-tag {
+  position: absolute !important;
+  top: 6px; left: 6px; z-index: 1;
+  padding: 3px 7px;
+  color: #fff; background: #083a70;
+  font-size: 10px; font-weight: 600; line-height: 1.2;
+  border-radius: 2px;
+}
+.jk-publications .jk-info { min-width: 0; overflow-wrap: anywhere; }
+.jk-publications .jk-title { font-size: 15px; font-weight: 700; line-height: 1.45; margin: 0 0 5px; }
+.jk-publications .jk-authors { line-height: 1.5; margin: 0 0 4px; }
+.jk-publications .jk-venue { font-style: italic; line-height: 1.5; margin: 0 0 8px; }
+.jk-publications .jk-links { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; }
 .jk-publications .jk-links a { display: inline-block; padding: 3px 9px; border: 1px solid #b9c2ca; border-radius: 3px; font-size: 12px; line-height: 1.5; text-decoration: none; }
 .jk-publications .jk-award { color: #c93e30; font-size: 12px; font-style: italic; font-weight: 600; }
 @media (max-width: 620px) {
-  .jk-publications .jk-paper { gap: 12px; }
-  .jk-publications .jk-figure { flex-basis: 32%; width: 32%; }
-  .jk-publications .jk-figure img { height: 110px; }
+  .jk-publications .jk-paper { grid-template-columns: minmax(0, 32%) minmax(0, 1fr) !important; column-gap: 12px !important; }
+  .jk-publications figure.jk-figure { height: 115px !important; }
   .jk-publications .jk-title { font-size: 14px; }
 }
 @media (max-width: 430px) {
-  .jk-publications .jk-paper { display: block; }
-  .jk-publications .jk-figure { width: 100%; max-width: 240px; margin-bottom: 12px; }
-  .jk-publications .jk-figure img { height: 145px; }
+  .jk-publications .jk-paper { grid-template-columns: minmax(0, 1fr) !important; row-gap: 12px !important; }
+  .jk-publications figure.jk-figure { width: min(100%, 260px) !important; height: 155px !important; }
 }
 </style>
 <h2 id="publications">Publications</h2>
