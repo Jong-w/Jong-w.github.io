@@ -1,0 +1,19 @@
+# Uses the ORIGINAL upstream Jekyll Minimal Light theme, not a CSS imitation.
+remote_theme: yaoyao-liu/minimal-light
+plugins:
+  - jekyll-remote-theme
+
+title: Jongwon Kim
+position: M.S. Student
+affiliation: DGIST, Division of AI
+email: kjw65144128@gmail.com
+keywords: Jongwon Kim, reinforcement learning, federated learning, adversarial defense, DGIST
+description: Academic homepage of Jongwon Kim, an M.S. student at DGIST.
+# Rename your repository to Jong-w.github.io to use this root URL.
+canonical: https://jong-w.github.io/
+github_link: https://github.com/Jong-w
+cv_link: assets/Jongwon_Kim_CV.pdf
+avatar: ./assets/profile.jpg
+enable_footnote: true
+auto_dark_mode: false
+font: "Sans Serif"
