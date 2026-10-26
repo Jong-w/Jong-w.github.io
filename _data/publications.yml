@@ -2,7 +2,7 @@ main:
 - title: 'FedCRUM: Dual-Space Federated Backdoor Defense via Class-Relation Geometry and Update Magnitude'
   authors: <strong>Jongwon Kim</strong>, Donggyu Lee, Juseok Jeon, Daehee Park, Jinhyun So
   conference_short: Manuscript
-  conference: Manuscript prepared for ICASSP 2027 (not presented as accepted).
+  conference: Manuscript prepared for ICASSP 2027.
   image: ./assets/fedcrum.png
 - title: 'AROMMA: Unifying Olfactory Embeddings for Single Molecules and Mixtures'
   authors: Dayoung Kang, <strong>Jongwon Kim</strong>, Jiho Park, Keonseock Lee, Ji-Woong Choi, Jinhyun So
@@ -17,7 +17,7 @@ main:
   conference: Multi-disciplinary Conference on Reinforcement Learning and Decision Making, 2025.
   image: ./assets/hierarchydrop.png
 - title: '계층적 강화학습에서의 표준적 계층 추가 방안: Timely Hierarchical Elaborated FeUdal Networks'
-  authors: <strong>Jongwon Kim</strong>
+  authors: <strong>Jongwon Kim</strong>, Dongjae Kim
   conference_short: KCC 2023
   conference: Korea Computer Congress (KCC), 2023, pp. 1799–1801.
   page: https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE11488543

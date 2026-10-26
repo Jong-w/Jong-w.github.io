@@ -26,102 +26,37 @@
     </aside>
     <main class="main-content">
       <section class="section about" id="about">
-        <h2>About Me</h2>
+        <h2 class="heading-rule">About Me</h2>
         <div class="education-cards">
           <div class="info-card"><strong>Bachelor's degree:</strong> Dankook University, 2020–2025, major in Information Statistics, supervised by <strong>Prof. Dongjae Kim</strong>.</div>
           <div class="info-card"><strong>Master's degree:</strong> Daegu Gyeongbuk Institute of Science and Technology (DGIST), 2025–present, major in Artificial Intelligence, supervised by <strong>Prof. Jinhyun So</strong>.</div>
         </div>
       </section>
       <section class="section interests" id="interests">
-        <h2>Research Interests</h2>
+        <h2 class="heading-rule">Research Interests</h2>
         <div class="interest-list"><span>Reinforcement Learning</span><span>Federated Learning</span><span>Adversarial Attack and Defense</span></div>
       </section>
       <section class="section experience" id="experience">
         <h2 class="heading-rule">Experience</h2>
         <div class="experience-card">
-          <div class="experience-header"><div class="experience-icon">DGIST</div><div><h3>Graduate Research Assistant</h3><p>DGIST · Division of AI</p></div><span class="date-pill">2025 – Present</span></div>
-          <p>Research in olfactory representation learning, federated learning security, and collaborative AI. Participated in the NRF bidirectional AI olfactory converter project and KIRD Real-Challenge Program.</p>
+          <div class="experience-header"><div class="experience-icon"><img src="assets/nrf.png" alt="NRF logo"></div><div><h3>Development of a Bidirectional Artificial Intelligence Olfactory Converter</h3><p>National Research Foundation of Korea (NRF)</p></div><span class="date-pill">Feb 2025 – Dec 2025</span></div>
+          <p>Research project on olfactory representation learning and AI-based odor understanding.</p>
         </div>
-        <div class="experience-card compact"><div class="experience-header"><div class="experience-icon">DKU</div><div><h3>Undergraduate Research Assistant</h3><p>Dankook University</p></div><span class="date-pill">2020 – 2025</span></div><p>Research on temporal abstraction and hierarchical reinforcement learning.</p></div>
+        <div class="experience-card">
+          <div class="experience-header"><div class="experience-icon"><img src="assets/kird.png" alt="KIRD logo"></div><div><h3>Real-Challenge Program: Wildfire Early Detection and Response Support</h3><p>Korea Institute of Human Resources Development in Science and Technology</p></div><span class="date-pill">Jun 2026 – Oct 2026</span></div>
+          <p>Research planning for context-aware multimodal AI to support wildfire detection and response.</p>
+        </div>
       </section>
       <section class="section publications" id="publications">
-        <h2>Publications</h2>
+        <h2 class="heading-rule">Publications</h2>
         <div class="paper-list">
-          
-          <article class="paper-card">
-            <div class="paper-image">
-              <img src="./assets/fedcrum.png" alt="Representative figure for FedCRUM: Dual-Space Federated Backdoor Defense via Class-Relation Geometry and Update Magnitude" loading="lazy">
-              <span class="paper-tag">Manuscript</span>
-            </div>
-            <div class="paper-content">
-              <h3></a>{% else %}FedCRUM: Dual-Space Federated Backdoor Defense via Class-Relation Geometry and Update Magnitude{% endif %}</h3>
-              <p class="paper-authors"><strong>Jongwon Kim</strong>, Donggyu Lee, Juseok Jeon, Daehee Park, Jinhyun So</p>
-              <p class="paper-venue">Manuscript prepared for ICASSP 2027 (not presented as accepted).</p>
-              <div class="paper-actions">
-                
-                
-                
-              </div>
-            </div>
-          </article>
-          
-          <article class="paper-card">
-            <div class="paper-image">
-              <img src="./assets/aromma.png" alt="Representative figure for AROMMA: Unifying Olfactory Embeddings for Single Molecules and Mixtures" loading="lazy">
-              <span class="paper-tag">ICASSP 2026</span>
-            </div>
-            <div class="paper-content">
-              <h3><a href="https://arxiv.org/abs/2601.19561" target="_blank" rel="noopener noreferrer">AROMMA: Unifying Olfactory Embeddings for Single Molecules and Mixtures</a>{% else %}{% if paper.english_title %}{{ paper.english_title }}{% else %}AROMMA: Unifying Olfactory Embeddings for Single Molecules and Mixtures{% endif %}</h3>
-              <p class="paper-authors">Dayoung Kang, <strong>Jongwon Kim</strong>, Jiho Park, Keonseock Lee, Ji-Woong Choi, Jinhyun So</p>
-              <p class="paper-venue">IEEE International Conference on Acoustics, Speech, and Signal Processing (ICASSP), 2026.</p>
-              <div class="paper-actions">
-                <a href="https://arxiv.org/abs/2601.19561" target="_blank" rel="noopener noreferrer">Paper</a>
-                <a href="https://github.com/DGIST-Distributed-AI-Lab/aromma" target="_blank" rel="noopener noreferrer">Code</a>
-                
-              </div>
-            </div>
-          </article>
-          
-          <article class="paper-card">
-            <div class="paper-image">
-              <img src="./assets/hierarchydrop.png" alt="Representative figure for HierarchyDrop: Dynamic Hierarchical Reinforcement Learning for Long- and Short-Term Subgoals" loading="lazy">
-              <span class="paper-tag">RLDM 2025</span>
-            </div>
-            <div class="paper-content">
-              <h3></a>{% else %}HierarchyDrop: Dynamic Hierarchical Reinforcement Learning for Long- and Short-Term Subgoals{% endif %}</h3>
-              <p class="paper-authors"><strong>Jong-Won Kim</strong>, Wonseo Jang, Dongjae Kim</p>
-              <p class="paper-venue">Multi-disciplinary Conference on Reinforcement Learning and Decision Making, 2025.</p>
-              <div class="paper-actions">
-                
-                
-                
-              </div>
-            </div>
-          </article>
-          
-          <article class="paper-card">
-            <div class="paper-image">
-              <img src="./assets/thefun.png" alt="Representative figure for 계층적 강화학습에서의 표준적 계층 추가 방안: Timely Hierarchical Elaborated FeUdal Networks" loading="lazy">
-              <span class="paper-tag">KCC 2023</span>
-            </div>
-            <div class="paper-content">
-              <h3><a href="https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE11488543" target="_blank" rel="noopener noreferrer">Standard Hierarchy Addition Method in Hierarchical Reinforcement Learning: Timely Hierarchical Elaborated FeUdal Networks{% endif %}</h3>
-              <p class="paper-authors"><strong>Jongwon Kim</strong></p>
-              <p class="paper-venue">Korea Computer Congress (KCC), 2023, pp. 1799–1801.</p>
-              <div class="paper-actions">
-                <a href="https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE11488543" target="_blank" rel="noopener noreferrer">Paper</a>
-                
-                <span class="paper-award">★ Outstanding Undergraduate Paper Award</span>
-              </div>
-            </div>
-          </article>
-          
+          <article class="paper-card"><div class="paper-image"><img src="assets/fedcrum.png" alt="FedCRUM: Dual-Space Federated Backdoor Defense via Class-Relation Geometry and Update Magnitude"><span class="paper-tag">Manuscript</span></div><div class="paper-content"><h3>FedCRUM: Dual-Space Federated Backdoor Defense via Class-Relation Geometry and Update Magnitude</h3><p class="paper-authors"><strong>Jongwon Kim</strong>, Donggyu Lee, Juseok Jeon, Daehee Park, Jinhyun So</p><p class="paper-venue">Manuscript prepared for ICASSP 2027.</p><div class="paper-actions"></div></div></article><article class="paper-card"><div class="paper-image"><img src="assets/aromma.png" alt="AROMMA: Unifying Olfactory Embeddings for Single Molecules and Mixtures"><span class="paper-tag">ICASSP 2026</span></div><div class="paper-content"><h3><a href="https://arxiv.org/abs/2601.19561">AROMMA: Unifying Olfactory Embeddings for Single Molecules and Mixtures</a></h3><p class="paper-authors">Dayoung Kang, <strong>Jongwon Kim</strong>, Jiho Park, Keonseock Lee, Ji-Woong Choi, Jinhyun So</p><p class="paper-venue">IEEE International Conference on Acoustics, Speech, and Signal Processing (ICASSP), 2026.</p><div class="paper-actions"><a href="https://arxiv.org/abs/2601.19561">Paper</a><a href="https://github.com/DGIST-Distributed-AI-Lab/aromma">Code</a></div></div></article><article class="paper-card"><div class="paper-image"><img src="assets/hierarchydrop.png" alt="HierarchyDrop: Dynamic Hierarchical Reinforcement Learning for Long- and Short-Term Subgoals"><span class="paper-tag">RLDM 2025</span></div><div class="paper-content"><h3>HierarchyDrop: Dynamic Hierarchical Reinforcement Learning for Long- and Short-Term Subgoals</h3><p class="paper-authors"><strong>Jong-Won Kim</strong>, Wonseo Jang, Dongjae Kim</p><p class="paper-venue">Multi-disciplinary Conference on Reinforcement Learning and Decision Making, 2025.</p><div class="paper-actions"></div></div></article><article class="paper-card"><div class="paper-image"><img src="assets/thefun.png" alt="Standard Hierarchy Addition Method in Hierarchical Reinforcement Learning: Timely Hierarchical Elaborated FeUdal Networks"><span class="paper-tag">KCC 2023</span></div><div class="paper-content"><h3><a href="https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE11488543">Standard Hierarchy Addition Method in Hierarchical Reinforcement Learning: Timely Hierarchical Elaborated FeUdal Networks</a></h3><p class="paper-authors"><strong>Jongwon Kim</strong>, Dongjae Kim</p><p class="paper-venue">Korea Computer Congress (KCC), 2023, pp. 1799–1801.</p><div class="paper-actions"><a href="https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE11488543">Paper</a><span class="paper-award">★ Outstanding Undergraduate Paper Award</span></div></div></article>
         </div>
       </section>
       <section class="section more" id="more">
         <h2 class="heading-rule">More</h2>
         <div class="more-grid">
-          <div class="small-card"><h3>Teaching</h3><p>Teaching Assistant, Introduction to Programming, DGIST · 2026–Present</p></div>
+          <div class="small-card"><h3>Teaching</h3><p>Teaching Assistant, Introduction to Programming, DGIST · Feb 2026 – Jun 2026</p></div>
           <div class="small-card"><h3>Awards</h3><p>Outstanding Undergraduate Paper Award · Korea Computer Congress 2023</p></div>
         </div>
       </section>

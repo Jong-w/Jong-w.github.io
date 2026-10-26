@@ -33,3 +33,7 @@ footer{font-size:12px}
 @media(max-width:900px){.site-shell{grid-template-columns:215px minmax(0,1fr);gap:30px}.paper-card{grid-template-columns:160px minmax(0,1fr)}.paper-image{height:120px}}
 @media(max-width:680px){.site-shell{display:block;width:min(620px,calc(100% - 28px))}.paper-card{grid-template-columns:140px minmax(0,1fr)}.paper-image{height:110px}}
 @media(max-width:440px){.paper-card{grid-template-columns:1fr}.paper-image{height:175px}.interest-list span{padding:0 10px}.date-pill{white-space:normal}}
+
+/* v3: Experience project logos */
+.experience-icon { overflow:hidden; background:#fff; padding:5px; }
+.experience-icon img { display:block; width:100%; height:100%; object-fit:contain; }
