@@ -4,15 +4,14 @@ layout: homepage
 
 ## About Me
 
-I am **Jongwon Kim**, an M.S. student in Artificial Intelligence at **Daegu Gyeongbuk Institute of Science and Technology (DGIST)**, advised by **Prof. Jinhyun So**. I received my B.S. in Information Statistics from Dankook University, where I worked with **Prof. Dongjae Kim**.
-
-My research focuses on reinforcement learning, federated learning, and adversarial attack and defense. I am particularly interested in reliable decision-making and collaborative AI systems.
+- **Bachelor's degree:** Dankook University, 2020–2025, major in Information Statistics, supervised by **Prof. Dongjae Kim**.
+- **Master's degree:** Daegu Gyeongbuk Institute of Science and Technology (DGIST), 2025–present, major in Artificial Intelligence, supervised by **Prof. Jinhyun So**.
 
 ## Research Interests
 
-- **Reinforcement Learning:** hierarchical reinforcement learning and multi-agent coordination
-- **Federated Learning:** robust learning and backdoor defense
-- **AI Security:** adversarial attacks, defenses, and trustworthy AI
+- Reinforcement Learning
+- Federated Learning
+- Adversarial Attack and Defense
 
 {% include publications.md %}
 
