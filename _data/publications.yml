@@ -9,7 +9,7 @@ main:
     authors: "Dayoung Kang, <strong>Jongwon Kim</strong>, Jiho Park, Keonseock Lee, Ji-Woong Choi, Jinhyun So"
     conference_short: "ICASSP 2026"
     conference: "IEEE International Conference on Acoustics, Speech, and Signal Processing (ICASSP), 2026."
-    pdf: "https://arxiv.org/abs/2601.19561"
+    page: "https://arxiv.org/abs/2601.19561"
     image: "./assets/aromma.png"
 
   - title: "HierarchyDrop: Dynamic Hierarchical Reinforcement Learning for Long- and Short-Term Subgoals"
@@ -22,7 +22,6 @@ main:
     authors: "<strong>Jongwon Kim</strong>"
     conference_short: "KCC 2023"
     conference: "Korea Computer Congress (KCC), 2023, pp. 1799–1801."
-    pdf: "./assets/THE_FUN_KCC_2023.pdf"
     page: "https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE11488543"
     image: "./assets/thefun.png"
     notes: "Outstanding Undergraduate Paper Award"
