@@ -20,3 +20,10 @@ This is a complete Jekyll / GitHub Pages site based on the official `yaoyao-liu/
 The homepage is intentionally a custom layout, not the unmodified upstream Minimal Light appearance. It keeps the upstream remote theme setting while overriding the layout and CSS.
 
 AROMMA Paper points to arXiv; TH-EFUN Paper points to DBpia. Other papers have no Paper button unless a verified URL is supplied.
+
+## Version 2 changes
+- Larger typography across the page.
+- Horizontal rules after About Me, Research Interests, and Publications headings.
+- Experience shows only NRF and KIRD projects.
+- Teaching period corrected to February–June 2026.
+- Changed files: `_layouts/homepage.html`, `assets/css/custom.css`.
