@@ -17,3 +17,7 @@ avatar: ./assets/profile.jpg
 enable_footnote: true
 auto_dark_mode: false
 font: "Sans Serif"
+
+# Custom homepage layout and stylesheet override the theme appearance.
+url: "https://jong-w.github.io"
+baseurl: ""
